@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-21T16:55:33 IST" name="Default suite" finished-at="2023-02-21T16:56:11 IST" duration-ms="37925">
+    <groups>
+    </groups>
+    <test started-at="2023-02-21T16:55:33 IST" name="Default test" finished-at="2023-02-21T16:56:11 IST" duration-ms="37925">
+      <class name="testcases.BedTest">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testcases.BedTest@123ef382]" started-at="2023-02-21T16:55:33 IST" name="LaunchBrowser" finished-at="2023-02-21T16:55:49 IST" duration-ms="16135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="bedstatus()[pri:0, instance:testcases.BedTest@123ef382]" started-at="2023-02-21T16:55:49 IST" name="bedstatus" finished-at="2023-02-21T16:55:50 IST" duration-ms="1137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bedstatus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.BedTest@123ef382]" started-at="2023-02-21T16:55:50 IST" name="close" finished-at="2023-02-21T16:55:51 IST" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testcases.BedTest@123ef382]" started-at="2023-02-21T16:55:51 IST" name="LaunchBrowser" finished-at="2023-02-21T16:56:08 IST" duration-ms="17052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="bed()[pri:0, instance:testcases.BedTest@123ef382]" started-at="2023-02-21T16:56:08 IST" name="bed" finished-at="2023-02-21T16:56:10 IST" depends-on-methods="testcases.BedTest.bedstatus" duration-ms="2351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bed -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.BedTest@123ef382]" started-at="2023-02-21T16:56:10 IST" name="close" finished-at="2023-02-21T16:56:11 IST" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.BedTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
